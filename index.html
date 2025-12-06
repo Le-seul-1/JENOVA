@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JENOVA | Centre d'Innovation Communautaire</title>
+    <meta name="description" content="JENOVA : Le futur de l'innovation et de la formation pour les jeunes.">
+    
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">JENOVA<span class="dot">.</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#formations" class="nav-link">Formations</a></li>
+                <li><a href="#projets" class="nav-link">Projets</a></li>
+                <li><a href="#apropos" class="nav-link">À Propos</a></li>
+                <li><a href="#contact" class="btn-cta">S'inscrire</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="container hero-content hidden">
+            <h1 class="hero-title">JENOVA : Le Futur de l'Innovation <br><span class="highlight">Commence Ici.</span></h1>
+            <p class="hero-subtitle">Accélérez vos compétences. Exposez votre génie. Rejoignez la communauté qui construit l'infrastructure de demain.</p>
+            <div class="hero-buttons">
+                <a href="#formations" class="btn btn-primary">Découvrez nos Formations</a>
+                <a href="#projets" class="btn btn-outline">Explorer les Projets</a>
+            </div>
+        </div>
+        <!-- Décoration d'arrière-plan abstraite -->
+        <div class="hero-bg-shape"></div>
+    </section>
+
+    <!-- Section Formations -->
+    <section id="formations" class="section">
+        <div class="container">
+            <h2 class="section-title hidden">Nos Formations</h2>
+            <div class="grid-container">
+                <!-- Carte 1 -->
+                <div class="card hidden">
+                    <div class="card-image-placeholder">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Développement Web</h3>
+                        <p>Maîtrisez HTML5, CSS3 et JavaScript pour créer l'infrastructure numérique de demain.</p>
+                        <a href="#" class="link-arrow">Voir les détails <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Carte 2 -->
+                <div class="card hidden">
+                    <div class="card-image-placeholder">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>IA pour Débutants</h3>
+                        <p>Comprendre les bases de l'intelligence artificielle et son impact sur l'industrie moderne.</p>
+                        <a href="#" class="link-arrow">Voir les détails <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Carte 3 -->
+                <div class="card hidden">
+                    <div class="card-image-placeholder">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Design Thinking</h3>
+                        <p>Apprenez à résoudre des problèmes complexes par une approche centrée sur l'humain.</p>
+                        <a href="#" class="link-arrow">Voir les détails <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets (Vitrine) -->
+    <section id="projets" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title hidden">Vitrine des Jeunes</h2>
+            <div class="grid-container">
+                <!-- Projet 1 -->
+                <div class="project-card hidden">
+                    <div class="project-img-placeholder">
+                        <span>[Image Projet Eco-Tech]</span>
+                    </div>
+                    <div class="project-info">
+                        <h4>Eco-Tracker App</h4>
+                        <p class="creator">Par: Sarah M.</p>
+                        <a href="#" class="btn-sm">Voir le Projet</a>
+                    </div>
+                </div>
+                <!-- Projet 2 -->
+                <div class="project-card hidden">
+                    <div class="project-img-placeholder">
+                        <span>[Image Robotique]</span>
+                    </div>
+                    <div class="project-info">
+                        <h4>Bras Robotique V1</h4>
+                        <p class="creator">Par: Jean D.</p>
+                        <a href="#" class="btn-sm">Voir le Projet</a>
+                    </div>
+                </div>
+                <!-- Projet 3 -->
+                <div class="project-card hidden">
+                    <div class="project-img-placeholder">
+                        <span>[Image Smart City]</span>
+                    </div>
+                    <div class="project-info">
+                        <h4>Smart City Dashboard</h4>
+                        <p class="creator">Par: Équipe Alpha</p>
+                        <a href="#" class="btn-sm">Voir le Projet</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À Propos -->
+    <section id="apropos" class="section">
+        <div class="container about-container hidden">
+            <div class="about-text">
+                <h2 class="section-title">Notre Mission</h2>
+                <p>JENOVA est plus qu'un centre de formation, c'est un incubateur de talents. Notre objectif est de <strong>Former</strong> la prochaine génération d'ingénieurs, de <strong>Promouvoir</strong> l'entrepreneuriat jeune, et d'<strong>Inspirer</strong> le changement.</p>
+                <p>En alignement avec l'objectif de développement durable "Industrie, Innovation et Infrastructure", nous fournissons les outils technologiques nécessaires pour bâtir un avenir résilient.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-box">
+                    <h3>500+</h3>
+                    <p>Jeunes formés</p>
+                </div>
+                <div class="stat-box">
+                    <h3>50+</h3>
+                    <p>Projets lancés</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>JENOVA</h3>
+                <p>Innovation pour tous.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Liens Rapides</h4>
+                <ul>
+                    <li><a href="#">Politique de Confidentialité</a></li>
+                    <li><a href="#">Mentions Légales</a></li>
+                    <li><a href="#">Carrières</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Suivez-nous</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p class="contact-email">contact@jenova-innovation.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 JENOVA. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Lien vers le fichier JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
